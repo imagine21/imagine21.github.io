@@ -1,0 +1,60 @@
+body{
+  font-family: 'Slabo 27px', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.left-panel{
+  position: relative;
+  float: left;
+  background: cyan;
+  width: 30%;
+}
+
+.right-panel{
+  float: right;
+  width: 70%;
+}
+
+.content{
+  width: auto;
+  margin: 50px;
+  padding-top: 20px;
+}
+
+.avatar{
+  right: 0px;
+  border-radius: 100%;
+  max-height: 100px;
+}
+
+.intro{
+  text-align: right;
+  font-weight: bold;
+}
+
+.titles{
+  color: #787878;
+  font-size: 2em;
+
+}
+
+
+
+.projects-img{
+  height: 400px;
+  margin: auto;
+  display: block;
+}
+
+
+
+
+.button{
+  margin:auto;
+  border: solid 3px #efefef;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  color: #787878
+}
