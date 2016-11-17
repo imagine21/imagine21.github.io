@@ -49,8 +49,8 @@ table {
 
 body{
   font-family: 'Open Sans', sans-serif;
-  color: #424242
-;
+  color: #424242;
+  text-align: justify;
 
 }
 
@@ -73,22 +73,19 @@ p, h2, h3, ul{
   width: 70%;
 }
 
-.skills{
-  position: relative;
-  float:left;
-  width: 50%;
-}
-
 .content{
   width: auto;
-  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding-top: 30px;
+  clear: both;
 }
 
 .adjustment{
   display: inline-block;
   width: 100%;
 }
+
 .avatar{
   position: relative;
   float: right;
@@ -103,24 +100,18 @@ p, h2, h3, ul{
 
 .description{
   font-weight: bold;
-  text-align: justify;
   color: #a2a2a2;
-
 }
 
-.padding{
-  padding-top: 150px;
-}
 
 .inner-padding{
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .titles{
   color: #787878;
   font-size: 2em;
-
 }
 
 .inner-titles{
@@ -130,8 +121,9 @@ p, h2, h3, ul{
   font-size: 1.5em;
 }
 
-.education{
+.education-titles{
   color: #787878;
+  font-size: 1.2em;
 }
 
 .certification-titles{
@@ -139,8 +131,19 @@ p, h2, h3, ul{
   text-align: center;
 }
 
+.certification-titles-adj{
+  color: #787878;
+  text-align: center;
+  padding-left: 100px;
+}
 
 .projects-img{
+  height: 400px;
+  margin: auto;
+  display: block;
+}
+
+.projects-img-confusion{
   height: 400px;
   margin: auto;
   display: block;
@@ -163,29 +166,26 @@ p, h2, h3, ul{
   padding-bottom: 30px;
 }
 
-
 .navbar{
+  padding-top: 50px;
   font-size: 1.2em;
   text-align: right;
-
-
 }
 
 .navtext{
   color: #787878;
-
 }
-
 
 .button{
   display: block;
   position: relative;
+  width: 200px;
   margin:auto;
   border: solid 3px #efefef;
   padding: 15px;
   text-align: center;
   border-radius: 5px;
-  color: #787878
+  color: #787878;
 }
 
 .icons{
@@ -193,8 +193,26 @@ p, h2, h3, ul{
   font-size: 2em;
   padding-left: 10px;
 }
+
+.icons-position{
+  position: absolute;
+  bottom: 60px;
+  right: 10px;
+  margin-right: 50px;
+}
+
 .footer{
-  color: #787878;
-  text-align: right;
+  right: 50px;
   font-size: 0.8em;
+  position: absolute;
+  bottom: 10px;
+}
+
+a:link, a:visited{
+  color: #787878;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightskyblue;
 }

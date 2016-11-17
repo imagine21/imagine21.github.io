@@ -8,13 +8,14 @@
   <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-
+  <!-- left panel -->
   <div class="left-panel">
     <div class="content">
+      <!-- avatar -->
       <span class="adjustment"><img class="avatar" src="img/me.jpeg"></span>
       <h2 class="intro">I have found a new interest for software development. So I am transitioning my background and dedicating myself to studying programming and computer science.</h2>
-
-      <div class="padding"></div>
+      
+      <!-- navbar -->
       <div class="navbar">
         <ul>
           <li class="navtext"><a href="#aboutme">About me</a></li>
@@ -22,27 +23,25 @@
           <li><a href="#myprojects">Projects</a></li>
           <li><a href="#myeducation">Education</a></li>
           <li><a href="#myinterests">Other Skills and Interests</a></li>
-
         </ul>
       </div>
 
-      <div class="padding"></div>
-
-      <span class="icons"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
-      <span class="icons"><a href="https://github.com/imagine21"><i class="fa fa-github" aria-hidden="true"></i></a></span>
-
-
-
-
-
-
+      <!-- icons -->
+      <div class="icons-position">
+        <span class="icons"><a href="https://uk.linkedin.com/in/joanasimoes90"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+        <span class="icons"><a href="https://github.com/imagine21"><i class="fa fa-github" aria-hidden="true"></i></a></span>
+      </div>
+      <!--footer -->
       <p class="footer">| Developed by Joana Simoes |</p>
 
     </div>
   </div>
+  <!-- end left panel -->
 
+  <!-- right panel -->
   <div class="right-panel">
-    <div class="content">
+    <!-- about me -->
+    <div class="content divider">
       <h2 class="titles" id="aboutme">About me</h2>
       <div class="description">
         <p>I am a curious and creative person by nature, and I am always looking to develop new skills. I found software development an interesting area and I have been focusing myself in web technologies such as AngularJS and Bootstrap and enjoying building things with HTML, CSS and Javascript.
@@ -50,21 +49,16 @@
         <p>My learning path as taken me through code academy, where I learnt about JavaScript, jQuery, HTML and CSS. And then to re-enforce my knowledge in a more structured way I started to actively focus on a full stack javascript and front end web certified specialisation within Coursera, thought by the University of Hong Kong of Science and Technology. In these courses is where I have learnt the most significant technologies such as bower, angular, gulp, node, and others. I am now starting to play around with Ionic for mobile development, and I pretend to dive deeper into the node.js realm.
         </p>
       </div>
-
-
     </div>
 
-    <div class="content">
+    <!-- my skills -->
+    <div class="content divider">
       <h2 class="titles" id="myskills">Skills and Technologies</h2>
       <div class="skills">
         <ul>
           <li>javaScritp</li>
           <li>HTML and CSS</li>
           <li>AngularJS</li>
-        </ul>
-      </div>
-      <div class="skills">
-        <ul>
           <li>jQuery</li>
           <li>Bootstrap Framework</li>
           <li>Ionic Framework</li>
@@ -72,75 +66,91 @@
       </div>
     </div>
 
-    <div class="content">
-      <div class="divider">
+    <!-- my projects -->
+    <div class="content divider">
+      <div>
         <h2 class="titles" id="myprojects">Projects</h2>
-        <p>Over this learning period I have been working on a few projects to practice the new skills. Some of these here presented were done for course assignments.</p>
+        <p>Over this learning period I have been working on a few projects to practice the new skills. These projects here presented were done for course assignments.</p>
 
         <h3 class="inner-titles">Matching Game</h3>
         <img src="img/matchgame.png" class="projects-img">
         <p>In my first simple project I practice the skills I just learned in the HTML, CSS and javaScript course. I managed to style a game interface applying css classes and build the game logic and interactivity with javaScript. So the player could keep leveling up by clicking on the extra smile.</p>
       </div>
 
-      <div class="divider">
+      <div>
         <h3 class="inner-titles">Ristorante con Fusion</h3>
-        <img src="img/confusion.png" class="projects-img">
+        <img src="img/confusion.png" class="projects-img-confusion">
         <p>Fictional Ristorante con Fusion, course assignment. A project build with Bootstrap frameworks, and designed with AngularJS single page application and a client-server communication between the Angular application and a RESTful server.</p>
+      </div>
+
+      <div>
+        <h3 class="inner-titles">Ristorante con Fusion hybrid mobile app</h3>
+        <img src="img/app.png" class="projects-img">
+        <p>Fictional Ristorante con Fusion, course assignment. A project build with Cordova hybrid application framework and  Ionic framework.</p>
       </div>
     </div>
 
+
+    <!-- education -->
     <div class="content">
       <div class="divider">
         <img src="img/isec.jpg" class="isec">
         <h2 class="titles" id="myeducation">Education</h2>
 
-        <h2 class="education">Bachelor in Biological Engineering</h2>
-
+        <h2 class="education-titles">Bachelor in Biological Engineering</h2>
         <p>Studied an engineering field featuring subjects like Biochemistry, Statistical analysis, Physics, Fluid dynamics, Management methods and many others chemical analytical techniques.</p>
 
-        <h2 class="education">Certificates</h2>
+        <h2 class="education-titles">Certificates</h2>
 
         <img src="img/coursera1.jpg" class="coursera">
-        <h3 class="certification-titles">HTML, CSS and JavaScript</h3>
-        <ul>Introduction to fundamental browser components:
-          <li> - HTML, for the output of text, sound, images and video in a web page;</li>
-          <li> - CSS, for applying style and some behavioral qualities to HTML;</li>
-          <li> - JavaScript, for controlling the CSS and HTML.</li>
-        </ul>
+        <div class="inner-padding">
+          <h3 class="certification-titles-adj">HTML, CSS and JavaScript</h3>
+          <ul>Introduction to fundamental browser components:
+            <li> - HTML, for the output of text, sound, images and video in a web page;</li>
+            <li> - CSS, for applying style and some behavioral qualities to HTML;</li>
+            <li> - JavaScript, for controlling the CSS and HTML.</li>
+          </ul>
+        </div>
 
-        <div class="inner-padding"></div>
+        <div class="inner-padding">
+          <h3 class="certification-titles">Front-End Web UI Frameworks and Tools</h3>
+          <p>Studied client-side web frameworks,in particular Bootstrap. Explored content about grids and responsive design, Bootstrap CSS and JavaScript components. Learned about CSS preprocessors, Less and Sass. Also learned the basics of Node.js and NPM and learned about Web tools like Bower.
+          </p>
+        </div>
 
-        <h3 class="certification-titles">Front-End Web UI Frameworks and Tools</h3>
-        <p>Studied client-side web frameworks,in particular Bootstrap. Explored content about grids and responsive design, Bootstrap CSS and JavaScript components. Learned about CSS preprocessors, Less and Sass. Also learned the basics of Node.js and NPM and learned about Web tools like Bower.</p>
+        <div class="inner-padding">
+          <h3 class="certification-titles">Front-End JavaScript Frameworks: AngularJS</h3>
+          <p>Learned about AngularJS, the model-view-controller framework, Angular directives, filters, and controllers. Designed a single page application using AngularJS and used a client-server communication between the Angular application and a RESTful server. Also learned about Web tools like Grunt, Gulp and Yeoman workflow.
+          </p>
+        </div>
 
-        <div class="inner-padding"></div>
-
-        <h3 class="certification-titles">Front-End JavaScript Frameworks: AngularJS</h3>
-        <p>Learned about AngularJS, the model-view-controller framework, Angular directives, filters, and controllers. Designed a single page application using AngularJS and used a client-server communication between the Angular application and a RESTful server. Also learned about Web tools like Grunt, Gulp and Yeoman workflow.</p>
-
-        <div class="inner-padding"></div>
-
-        <h3 class="certification-titles">Multiplatform Mobile App Development with Web Technologies</h3>
-        <p>Explored the Cordova hybrid application framework and the Ionic framework. Learned about UI development with Ionic and then used Cordova's modules to access the native mobile platform's capabilities from Javascript.</p>
+        <div class="inner-padding">
+          <h3 class="certification-titles">Multiplatform Mobile App Development with Web Technologies</h3>
+          <p>Explored the Cordova hybrid application framework and the Ionic framework. Learned about UI development with Ionic and then used Cordova's modules to access the native mobile platform's capabilities from Javascript.
+          </p>
+        </div>
       </div>
     </div>
 
+    <!-- interests -->
     <div class="content">
       <div class="divider">
         <h2 class="titles" id="myinterests">Other skills and Interests</h2>
         <p>In my spare time I love to find and learn new hobbies where I can exercise my creative and imaginative side. I find that these activities can helps us become a more dynamic and open person to our day to day life and professional situations.
           I have a naturally drawing skill which I perfected in a year’s course of drawing and painting.
-          I have self-taught how to do crochet and enjoy the challenge of learning how to create new patterns. I love to create do it yourself projects with recycled materials and other materials that I can find.</p>
+          I have self-taught how to do crochet and enjoy the challenge of learning how to create new patterns. I love to create do it yourself projects with recycled materials and other materials that I can find.
+        </p>
       </div>
     </div>
 
-
-    <div>
-      <a href="#aboutme" class="button">Back to top</a>
+    <div class="inner-padding"></div>
+    <!-- button -->
+    <div class="button">
+      <a href="#aboutme">Back to top</a>
     </div>
-
-
+    <div class="inner-padding"></div>
   </div>
+  <!-- end right panel -->
 
 </body>
 </html>
